@@ -24,6 +24,12 @@ body {
   border-radius: 8px;
 }
 
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 80%;
+  }
+}
+
 .card .image {
   height: 150px;
   width: 150px;
@@ -54,9 +60,6 @@ body {
   background: -webkit-linear-gradient(#825bc7, #eb6f7c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.dot {
 }
 
 span {
